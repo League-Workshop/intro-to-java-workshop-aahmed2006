@@ -9,7 +9,7 @@ void setup() {
 void draw() {
   background(friend);
   if(mousePressed){
-    
+    image(mustache, 165, 190);
   }
-  image(mustache, mouseX, mouseY);
+  
 }
